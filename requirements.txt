@@ -8,3 +8,4 @@ tables>=3.8.0
 jupyterlab>=3.6.4
 ipywidgets>=8.0.6
 jupyterlab_widgets>=3.0.7
+jupyter_contrib_nbextensions
