@@ -93,16 +93,16 @@ Now update pip
     
 **4)** Clone this repository:
 
-    $ git clone https://github.com/isrsummerschool/lecture_supplements_2025.git
+    (isrschool) $ git clone https://github.com/isrsummerschool/lecture_supplements_2025.git
     
-**5)** Install the python packages that the lecture supplement notebooks need:
+**5)** Inside the virtual environment install the python packages that the lecture supplement notebooks need:
 
-    $ cd lecture_supplements_2025
-    $ pip install -r requirements.txt
+    (isrschool) $ cd lecture_supplements_2025
+    (isrschool) $ pip install -r requirements.txt
 
 **6)** Now you can start up a Jupyter Lab server and work with the notebooks:
 
-    $ jupyter lab
+    (isrschool) $ jupyter lab
 
 
 ### macOS (with conda)
