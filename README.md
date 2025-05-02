@@ -90,7 +90,11 @@ This will create a virtual environment named isrschool based on Python3.13.
 Now update pip
 
     (isrschool) $ pip install --upgrade pip
-    
+
+**3.2** Update the Certificate Authority (CA) certificates For Python 3.13 the path to the exceutable would be:
+
+    $ /Applications/Python 3.13/Install Certificates.command
+
 **4)** Clone this repository:
 
     (isrschool) $ git clone https://github.com/isrsummerschool/lecture_supplements_2025.git
