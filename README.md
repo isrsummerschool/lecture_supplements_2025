@@ -61,7 +61,51 @@ All of the following commands should be run either from the "Anaconda Powershell
 
 ___
 
-### macOS
+### macOS (with Xcode Command Line Tools, no conda)
+
+**1)** Be sure to have Xcode Command Line Tools. Three choices:
+1. Install the full Xcode package from App Store
+2. Install Xcode Command Line Tools from a terminal:
+    - Examples of commands that will trigger a prompt to install Xcode Command Line Tools: *clang*, *gcc*, *git*
+    - Or enter the command:
+
+            $ xcode-select --install
+
+3. Verify that you've successfully install Xcode Command Line Tools:
+
+        $ xcode-select -p
+
+**2)** Install latest with Python 3 from https://www.python.org  (e.g. Download Python 3.13.3)
+
+**3)** Set up a Python environment with the existing or newly installed python3:
+
+Open a terminal, in case you just installed Python3.13 you create a virtual environment using:
+
+    $ python3.13 -m venv isrschool
+
+This will create a virtual environment named isrschool based on Python3.13.
+**3.1)** Activate the virtual environment and update pip
+
+    $ source isrschool/bin/activate
+Now update pip
+
+    (isrschool) $ pip install --upgrade pip
+    
+**4)** Clone this repository:
+
+    $ git clone https://github.com/isrsummerschool/lecture_supplements_2025.git
+    
+**5)** Install the python packages that the lecture supplement notebooks need:
+
+    $ cd lecture_supplements_2025
+    $ pip install -r requirements.txt
+
+**6)** Now you can start up a Jupyter Lab server and work with the notebooks:
+
+    $ jupyter lab
+
+
+### macOS (with conda)
 
 **1)** Install Anaconda for mac from https://www.anaconda.com/products/individual
 
