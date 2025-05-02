@@ -63,7 +63,7 @@ ___
 
 ### macOS (with Xcode Command Line Tools, no conda)
 
-**1)** Be sure to have Xcode Command Line Tools. Three choices:
+**1)** Be sure to have Xcode Command Line Tools. A couple of choices:
 1. Install the full Xcode package from App Store
 2. Install Xcode Command Line Tools from a terminal:
     - Examples of commands that will trigger a prompt to install Xcode Command Line Tools: *clang*, *gcc*, *git*
@@ -71,7 +71,7 @@ ___
 
             $ xcode-select --install
 
-3. Verify that you've successfully install Xcode Command Line Tools:
+Verify that you've successfully install Xcode Command Line Tools:
 
         $ xcode-select -p
 
